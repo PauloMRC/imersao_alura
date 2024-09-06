@@ -19,4 +19,9 @@ let dados = [
         descricao:"Serviços N3 de diárias técnicas de um fornecedor para um cliente.",
         link: "#",
     }
+    {
+        titulo:"Equipamentos",
+        descricao:"Equipamentos para realização do serviço.",
+        link: "#",
+    }
 ];
