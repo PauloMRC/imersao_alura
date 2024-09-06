@@ -1,7 +1,9 @@
 ## Aplicativo de Busca de Tipos de Compras - Imersão_Dev da Alura com Google Gemini
 
 ### O que ele faz?
-Essa aplicação simples te ajuda a encontrar rapidamente informações sobre diferentes tipos de compras. Basta digitar um termo de busca (por exemplo, "escopo fechado", "recurso", "diária") e pronto! A mágica acontece: os resultados relevantes aparecem na tela, com título, descrição e link para mais detalhes.
+Essa aplicação ajuda a encontrar informações sobre os tipos de compras. Basta digitar um termo de busca (por exemplo, "escopo fechado", "recurso", "diária") e pronto! A mágica acontece: os resultados relevantes aparecem na tela, com título, descrição e link para mais detalhes.
+
+Acesse o repositório no [vercel](https://imersao-alura-brown-seven.vercel.app/).
 
 ### Tecnologias utilizadas:
 * **HTML:** A estrutura básica da página.
