@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compras</title>
+</head>
+<body>
+    <header>
+        <h1>Tipos de Compras</h1>
+    </header>
+<!--Busca-->
+    <main>
+        <section>
+            <div class="centralizar">
+                <!--<label for="numeroRequisicao"> </alabel> -->
+                    <!-- <p>
+                        <input type="text" id="numeroRequisicao" nome="numeroRequisicao" min="100000000" max="100999999" placeholder="Insira a RC" maxlength="9" pattern="100\d{6}"  title="Digite o número da requisição com 9 dígitos (ex.: 100123456)">
+                    </p> -->
+                    <p>
+                        <input type="text" id="numeroRequisicao" nome="numeroRequisicao" placeholder="Insira o tipo da Compra" maxlength="20" title="Digite o tipo da requisição (ex.: Escopo Fechado, Recurso, Chamado, Diária e Equipamento)">
+                    </p>
+                <button onclick="pesquisar()" type="submit">Buscar</button>
+            </div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Empresa do Brasil. Todos os direitos reservados.</p>
+        <p>Contato: <a href="contato@email.com.br" target="_blank">contato@email.com.br</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
